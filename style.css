@@ -188,7 +188,7 @@ span {
   position: relative;
 }
 .text-animation span::before {
-  content: "Web Developer";
+  content: "Full-Stack Developer";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -210,23 +210,23 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Frontend Designer";
+    content: "Full-Stack Developer";
   }
   21%,
   40% {
-    content: "Web Designer";
+    content: "Cyber Security Analyst";
   }
   41%,
   60% {
-    content: "UI / UX Designer";
+    content: "Full-Stack Developer";
   }
   61%,
   80% {
-    content: "Web Developer";
+    content: "Cyber Security Analyst";
   }
   81%,
   100% {
-    content: "Software Tester";
+    content: "Full-Stack Developer";
   }
 }
 @keyframes typing {
