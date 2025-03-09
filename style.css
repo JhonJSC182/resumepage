@@ -370,7 +370,11 @@ span {
   cursor: pointer;
   transition: 0.4s ease-in-out;
 
+
+  overflow-y: auto; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
   -webkit-overflow-scrolling: touch;
+  touch-action: auto;
 }
 
 
