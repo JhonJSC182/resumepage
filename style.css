@@ -374,7 +374,7 @@ span {
   overflow-y: auto; /* Allow vertical scrolling */
   overflow-x: hidden; /* Prevent horizontal scrolling */
   -webkit-overflow-scrolling: touch;
-  touch-action: auto;
+  touch-action: pan-y;
 }
 
 
